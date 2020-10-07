@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HorasTrabalhadas</string>
+    <string name="calcular">Calcular</string>
+    <string name="digite_as_horas_trabalhadas">Digite as horas trabalhadas</string>
+    <string name="horas_trabalhadas">Horas Trabalhadas</string>
+    <string name="valor_da_hora">Valor da Hora</string>
+</resources>

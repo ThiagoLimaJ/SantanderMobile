@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style='android:fontFamily="sans-serif-light"'
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    tools:context=".MainActivity"
+    android:background="@color/fundo">
+
+    <TextView
+        style='android:fontFamily="sans-serif-light"'
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/colorTextoLogin"
+        android:text="FOOBAR"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-light"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:imeOptions="actionNext"
+        android:backgroundTint="@color/colorTextoLogin"
+        android:textColorHint="@color/colorTextoLogin"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="numberPassword"
+        android:imeOptions="actionNext"
+        android:textColorHint="@color/colorTextoLogin"
+        android:backgroundTint="@color/colorTextoLogin"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorBotaoLogin"
+        android:textColor="@color/colorTextoLogin"
+        android:text="Login"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/fundo"
+            android:layout_gravity="bottom"
+            android:padding="15dp"
+            android:textColor="@color/colorTextoLogin"
+            android:text="@string/meuTexto"/>
+    </LinearLayout>
+
+
+</LinearLayout>

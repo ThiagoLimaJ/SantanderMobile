@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ObtendoElementos</string>
+    <string name="nome">Nome</string>
+    <string name="digite_o_seu_nome">Digite o seu nome</string>
+    <string name="exibir">Exibir</string>
+    <string name="meu_nome">Meu nome é</string>
+</resources>
