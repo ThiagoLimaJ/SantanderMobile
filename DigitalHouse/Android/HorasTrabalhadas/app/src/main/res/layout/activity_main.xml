@@ -10,35 +10,41 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:textSize="20sp"
-        android:text="@string/horas_trabalhadas"/>
+        android:layout_marginTop="22dp"
+        android:layout_marginStart="18dp"
+        android:textSize="18sp"
+        android:text="@string/horas_trabalhadas"
+        android:textStyle="bold"/>
 
     <EditText
         android:id="@+id/edtHora"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="22dp"
         android:hint="@string/digite_as_horas_trabalhadas"
-        android:autofillHints="no"
-        android:inputType="number"
+        android:inputType="numberDecimal"
         />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:textSize="20sp"
-        android:text="@string/valor_da_hora"/>
+        android:layout_marginTop="22dp"
+        android:layout_marginStart="18dp"
+        android:textSize="18sp"
+        android:text="@string/valor_da_hora"
+        android:textStyle="bold"/>
 
     <EditText
         android:id="@+id/edtValor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:hint="@string/digite_as_horas_trabalhadas"
-        android:autofillHints="no"
-        android:inputType="number" />
+        android:layout_marginTop="22dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="22dp"
+        android:hint="@string/digite_o_valor_da_hora"
+        android:inputType="numberDecimal" />
 
 
 

@@ -8,41 +8,47 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/txtTemperatura"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:textSize="20sp"
-        android:text="@string/temperatura_em_c"/>
-
-    <EditText
-        android:id="@+id/edtValor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="22dp"
+        android:textSize="18sp"
+        android:layout_marginStart="18dp"
+        android:text="@string/temperatura_em_c"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/etValor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="22dp"
         android:hint="@string/digite_a_temperatura"
-        android:autofillHints="no"
         android:inputType="number" />
 
 
 
     <Button
-        android:id="@+id/btnCliqueAqui"
+        android:id="@+id/btnConverter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="40dp"
-        android:background="@color/colorBotao"
-        android:backgroundTint="@color/colorTextoBotao"
+        android:layout_marginTop="22dp"
+        android:textColor="@color/colorTextoBotao"
+        android:backgroundTint="@color/colorBotao"
         android:text="@string/converter"/>
 
     <TextView
         android:id="@+id/txtResultado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="24sp"
         android:layout_gravity="center"
-        android:textSize="50sp"
-        android:layout_marginTop="100dp" />
+        android:layout_marginTop="100dp"
+        android:text="@string/temperatura_em_c"
+        android:visibility="gone"
+        android:textStyle="bold"
+        tools:visibility="visible"/>
 
 
 </LinearLayout>
